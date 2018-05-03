@@ -1,0 +1,199 @@
+html,
+body {
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+button {
+    background-color: lightgray;
+    border: none;
+    height: 100%;
+    width: 30px;
+    line-height: 15px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #1c1c1c;
+    color: white;
+}
+
+button:active {
+    background-color: #1c1c1c;
+    color: #f44336;
+}
+
+button:focus {
+    outline: none;
+}
+
+.wraper {
+    margin: auto auto;
+    min-width: 300px;
+    max-width: 300px;
+    width: 300px;
+    box-shadow: 0 0 2px lightgray;
+}
+
+.display {
+    width: 100%;
+    height: 40px;
+    margin: 0 0;
+    padding: 0 0;
+    background-color: white;
+}
+
+#buttons {
+    width: 100%;
+    height: 31px;
+    background-color: lightgray;
+}
+
+#button-wraper {
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    margin-left: 8px;
+}
+
+#player {
+    width: 100%;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+#artist {
+    width: 100%;
+    height: 50%;
+    background-color: #1c1c1c;
+    text-align: left;
+    padding: 0 10px;
+    margin: 0 0;
+    color: white;
+    font-family: 'Audiowide', cursive;
+    font-size: 11px;
+    overflow: hidden;
+}
+
+#track {
+    padding: 0 10px;
+    margin: 0 0;
+    width: 100%;
+    height: 50%;
+    background-color: #1c1c1c;
+    text-align: left;
+    color: white;
+    font-family: 'Audiowide', cursive;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.active {}
+
+.fixed {
+    color: #ff782b;
+}
+
+.artist-color {
+    color: #fdfe02;
+}
+
+.track-color {
+    color: #18DD00;
+}
+
+.toggled {
+    background-color: #1c1c1c;
+    color: #18dafc;
+}
+
+.maxed {
+    background-color: #1c1c1c;
+    color: #f44336;
+}
+
+#timecode {
+    height: 15px;
+    font-size: 15px;
+    margin: 0 0;
+    line-height: 16px;
+    color: white;
+    width: 40px;
+    margin-left: 8px;
+    float: left;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+#progress-container {
+    display: inline-block;
+    background-color: rgba(100, 100, 100, 0.4);
+    height: 8px;
+    width: 206px;
+}
+
+#progressContainer {
+    background-image: url(../images/1.jpg);
+}
+
+#progress {
+    height: 100%;
+    background-color: red;
+    width: 0%;
+}
+
+#volume-bar {
+    display: inline-block;
+    margin-right: 8px;
+    width: 30px;
+    height: 8px;
+    background-color: rgba(100, 100, 100, 0.4);
+}
+
+#volume {
+    height: 100%;
+    background-color: lightgreen;
+    width: 0%;
+}
+
+#yt-button {
+    float: left;
+    border-radius: 50%;
+    width: 49%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: cyan;
+    border: 3px solid cyan;
+}
+
+#yt-button:hover {
+    color: orange;
+    border: 3px solid orange;
+}
+
+#yt-video-change {
+    border-radius: 50%;
+    width: 49%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: cyan;
+    border: 3px solid cyan;
+}
+
+#yt-video-change:hover {
+    color: orange;
+    border: 3px solid orange;
+}
+
+#yt-wraper {
+    width: 70px;
+    height: 35px;
+    position: absolute;
+    float: left;
+}
+
+#mode {
+    float: right;
+    margin-right: 8px; 
+}
